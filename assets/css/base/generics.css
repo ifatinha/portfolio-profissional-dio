@@ -1,4 +1,20 @@
 html,
 body {
+    height         : 100%;
     scroll-behavior: smooth;
+    width          : 100%;
+}
+
+body {
+    background-color: var(--black);
+    color           : var(--white);
+    font-family     : var(--primary-font);
+}
+
+a {
+    color: inherit;
+}
+
+.main {
+    padding: 1rem;
 }
