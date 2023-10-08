@@ -6,4 +6,19 @@
     --secont-font : 'Neue Machina';
     --black       : #000000;
     --white       : #ffffff;
+    --yellow      : #ffbd44;
+    --red         : #ff605c;
+    --green       : #00ca4e;
+}
+
+.yellow {
+    color: var(--yellow);
+}
+
+.red {
+    color: var(--red);
+}
+
+.green {
+    color: var(--green);
 }

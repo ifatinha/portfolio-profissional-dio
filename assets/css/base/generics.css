@@ -9,6 +9,7 @@ body {
     background-color: var(--black);
     color           : var(--white);
     font-family     : var(--primary-font);
+    padding         : 0 2%;
 }
 
 a {
@@ -16,5 +17,24 @@ a {
 }
 
 .main {
-    padding: 1rem;
+    border       : 2px solid #0974f1;
+    border-radius: 2.5rem 0 2.5rem 0;
+    box-shadow   : 0 0 20px rgba(9, 117, 241, 0.8);
+    background   : linear-gradient(#000, #000) padding-box,
+        linear-gradient(0deg, transparent 35%, #e81cff, #40c9ff) border-box;
+    max-width: 700px;
+    margin   : 2rem auto;
+    padding  : 1rem;
+    position : relative;
+    width    : 100%;
+}
+
+.dotts {
+    position: absolute;
+    right   : 0;
+    top     : 0;
+}
+
+.dott {
+    font-size: 0.75rem;
 }
