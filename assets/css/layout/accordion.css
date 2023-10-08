@@ -1,0 +1,26 @@
+.accordion {
+    width: 100%;
+}
+
+.accordion-btn {
+    align-items        : center;
+    background-color   : transparent;
+    border             : 1px solid transparent;
+    border-bottom-color: #fefefe;
+    color              : var(--white);
+    display            : flex;
+    font-size          : 1.25rem;
+    font-weight        : 600;
+    justify-content    : space-between;
+    margin-bottom      : 1rem;
+    padding            : 15px 5px;
+    position           : relative;
+    text-transform     : capitalize;
+    transition         : .5s ease-out;
+    width              : 100%;
+}
+
+.accordion-btn:hover {
+    background-color: #212121;
+    cursor          : pointer;
+}

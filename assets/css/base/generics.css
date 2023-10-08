@@ -38,3 +38,12 @@ a {
 .dott {
     font-size: 0.75rem;
 }
+
+.dio-logo {
+    margin-top: 2rem;
+    text-align: right;
+}
+
+.dio-logo img {
+    max-width: 100px;
+}
