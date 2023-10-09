@@ -1,5 +1,6 @@
 .accordion {
-    width: 100%;
+    margin-bottom: 1rem;
+    width        : 100%;
 }
 
 .accordion-btn {
@@ -12,21 +13,35 @@
     font-size          : 1.5rem;
     font-family        : var(--primary-font);
     justify-content    : space-between;
-    margin-bottom      : 1rem;
-    padding            : 0.938rem 0.313rem 0px;
+    padding            : 0.938rem 0.313rem;
     position           : relative;
     text-transform     : capitalize;
-    transition         : .5s ease-out;
+    transition         : .5s ease-in-out;
     width              : 100%;
 }
 
 .accordion-btn:hover {
-    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor          : pointer;
+}
+
+.accordion-btn i {
+    transition: .3s ease-in-out;
+}
+
+.accordion:hover i {
+    transform: rotate(180deg);
 }
 
 .accordion-content {
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
-    padding   : 1rem 0.313rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-top      : 1px solid rgba(255, 255, 255, 0.2);
+    display         : none;
+    padding         : 0.5rem 0.313rem;
+}
+
+.open.accordion-content {
+    display: block;
 }
 
 .skill-container {
@@ -35,9 +50,9 @@
     gap           : 1rem;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 600px) {
     .skill-container {
-        align-items   : center;
+        /* align-items   : center; */
         flex-direction: row;
     }
 }
@@ -48,28 +63,38 @@
 
 .competence h2 {
     font-weight  : 600;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .list {
-    align-items: center;
-    display    : flex;
-    flex-wrap  : wrap;
-    gap        : 0.5rem;
+    align-items    : center;
+    display        : flex;
+    flex-wrap      : wrap;
+    gap            : 0.5rem;
+    justify-content: start;
 }
 
-.list li a {
+#tools {
+    align-items          : center;
+    align-content        : center;
+    display              : grid;
+    grid-template-columns: 50px 50px;
+    gap                  : 1rem;
+    justify-content      : center;
+}
+
+#tools li a {
     display   : inline-block;
     transition: .5s ease-out;
 }
 
-.list li a:hover {
+#tools li a:hover {
     transform: scale(1.1);
 }
 
-.list li img {
-    height: 32px;
-    width : 32px;
+#tools li img {
+    height: 40px;
+    width : 40px;
 }
 
 #icon-list li {
