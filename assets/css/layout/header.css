@@ -29,7 +29,7 @@
 }
 
 .profile-name {
-    font-family  : var(--secont-font);
+    font-family  : var(--second-font);
     font-size    : 2rem;
     margin-bottom: 1.375rem;
     text-align   : center;

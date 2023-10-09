@@ -1,15 +1,9 @@
-html,
-body {
-    height         : 100%;
-    scroll-behavior: smooth;
-    width          : 100%;
-}
-
 body {
     background-color: var(--black);
     color           : var(--white);
     font-family     : var(--primary-font);
-    padding         : 0 2%;
+    font-size       : 16px;
+    padding         : 1rem;
 }
 
 a {
@@ -23,7 +17,7 @@ a {
     background   : linear-gradient(#000, #000) padding-box,
         linear-gradient(0deg, transparent 35%, #e81cff, #40c9ff) border-box;
     max-width: 700px;
-    margin   : 2rem auto;
+    margin   : 16px auto;
     padding  : 1rem;
     position : relative;
     width    : 100%;

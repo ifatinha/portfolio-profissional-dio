@@ -5,15 +5,15 @@
 .accordion-btn {
     align-items        : center;
     background-color   : transparent;
-    border             : 1px solid transparent;
+    border             : none;
     border-bottom-color: #fefefe;
     color              : var(--white);
     display            : flex;
-    font-size          : 1.25rem;
-    font-weight        : 600;
+    font-size          : 1.5rem;
+    font-family        : var(--primary-font);
     justify-content    : space-between;
     margin-bottom      : 1rem;
-    padding            : 15px 5px;
+    padding            : 0.938rem 0.313rem 0px;
     position           : relative;
     text-transform     : capitalize;
     transition         : .5s ease-out;
@@ -21,6 +21,115 @@
 }
 
 .accordion-btn:hover {
-    background-color: #212121;
-    cursor          : pointer;
+    cursor: pointer;
+}
+
+.accordion-content {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding   : 1rem 0.313rem;
+}
+
+.skill-container {
+    display       : flex;
+    flex-direction: column;
+    gap           : 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    .skill-container {
+        align-items   : center;
+        flex-direction: row;
+    }
+}
+
+.competence {
+    flex: 1;
+}
+
+.competence h2 {
+    font-weight  : 600;
+    margin-bottom: 1rem;
+}
+
+.list {
+    align-items: center;
+    display    : flex;
+    flex-wrap  : wrap;
+    gap        : 0.5rem;
+}
+
+.list li a {
+    display   : inline-block;
+    transition: .5s ease-out;
+}
+
+.list li a:hover {
+    transform: scale(1.1);
+}
+
+.list li img {
+    height: 32px;
+    width : 32px;
+}
+
+#icon-list li {
+    align-items: center;
+    display    : flex;
+    gap        : .25rem;
+}
+
+#icon-list li::before {
+    background-color: rgba(9, 117, 241, 0.8);
+    content         : "";
+    display         : inline-block;
+    height          : 4px;
+    width           : 6px;
+}
+
+#projects li {
+    margin-bottom: 1rem;
+}
+
+#projects li h2 {
+    font-size    : 1.125rem;
+    font-weight  : 600;
+    margin-bottom: 0.25rem;
+}
+
+#projects li a {
+    border    : 1px solid transparent;
+    transition: .3s ease-in-out;
+}
+
+#projects li a:hover {
+    color              : rgba(9, 117, 241, 0.8);
+    border-bottom-color: rgba(9, 117, 241, 0.8);
+}
+
+#experience li {
+    margin-bottom: 2rem;
+}
+
+#experience h3 {
+    align-items  : center;
+    display      : flex;
+    font-size    : 1.125rem;
+    font-weight  : 600;
+    gap          : 0.375rem;
+    margin-bottom: 0.5rem;
+}
+
+#experience h3::before {
+    background-color: rgba(9, 117, 241, 0.8);
+    content         : "";
+    display         : inline-block;
+    height          : 20px;
+    width           : 4px;
+}
+
+#experience span {
+    display      : inline-block;
+    font-size    : 0.875rem;
+    margin-bottom: 0.5rem;
+    opacity      : .6;
 }
