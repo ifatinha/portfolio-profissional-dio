@@ -1,6 +1,6 @@
 {
   "name": "Jane Doe",
-  "photo": "/data/images/profile.jpeg",
+  "photo": "data/images/profile.jpeg",
   "job": "Dev Senior",
   "location": "Serra Grande - PB",
   "phone": "(83) 91234-5678",
@@ -9,27 +9,27 @@
     "hardSkills": [
       {
         "name": "HTML",
-        "logo": "/data/images/html-5.png"
+        "logo": "data/images/html-5.png"
       },
       {
         "name": "CSS",
-        "logo": "/data/images/css-3.png"
+        "logo": "data/images/css-3.png"
       },
       {
         "name": "JS",
-        "logo": "/data/images/js.png"
+        "logo": "data/images/js.png"
       },
       {
         "name": "PHP",
-        "logo": "/data/images/php.png"
+        "logo": "data/images/php.png"
       },
       {
         "name": "Postgresql",
-        "logo": "/data/images/postgre.png"
+        "logo": "data/images/postgre.png"
       },
       {
         "name": "Node JS",
-        "logo": "/data/images/node-js.png"
+        "logo": "data/images/node-js.png"
       }
     ],
     "softSkills": [
