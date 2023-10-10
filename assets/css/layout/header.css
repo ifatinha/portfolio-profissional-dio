@@ -17,8 +17,8 @@
 
 .profile-img {
     align-self: center;
-    flex-basis: 200px;
     height    : 200px;
+    width     : 200px;
     text-align: center;
 }
 
