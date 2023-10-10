@@ -103,7 +103,9 @@
     width : 40px;
 }
 
-#hardSkills li {
+#hardSkills li,
+#softSkills li,
+#languages li {
     align-items: center;
     display    : flex;
     gap        : .25rem;
