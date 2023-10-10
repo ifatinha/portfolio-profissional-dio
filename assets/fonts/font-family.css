@@ -1,4 +1,5 @@
 @font-face {
-    font-family: 'Neue Machina';
-    src: url("/assets/fonts/Neue-Machina/Neue-Machina-Font/NeueMachina-Regular.otf");
+    font-family : 'Neue Machina';
+    src         : url("/assets/fonts/Neue-Machina/Neue-Machina-Font/NeueMachina-Regular.otf");
+    font-display: swap;
 }
