@@ -1,0 +1,88 @@
+{
+  "name": "Jane Doe",
+  "photo": "/data/images/profile.jpeg",
+  "job": "Dev Senior",
+  "location": "Serra Grande - PB",
+  "phone": "(83) 91234-5678",
+  "email": "janedoe@gmail.com",
+  "skills": {
+    "hardSkills": [
+      {
+        "name": "HTML",
+        "logo": "/data/images/html-5.png"
+      },
+      {
+        "name": "CSS",
+        "logo": "/data/images/css-3.png"
+      },
+      {
+        "name": "JS",
+        "logo": "/data/images/js.png"
+      },
+      {
+        "name": "PHP",
+        "logo": "/data/images/php.png"
+      },
+      {
+        "name": "Postgresql",
+        "logo": "/data/images/postgre.png"
+      },
+      {
+        "name": "Node JS",
+        "logo": "/data/images/node-js.png"
+      }
+    ],
+    "softSkills": [
+      "Empatia",
+      "Liderança",
+      "Trabalho em equipe",
+      "Flexibilidade",
+      "Organização"
+    ]
+  },
+  "languages": [
+    "Português BR",
+    "Inglês (intermediário)",
+    "Espanhol (intermediário)",
+    "Italiano (iniciante)"
+  ],
+  "portfolio": [
+    {
+      "name": "Pokedex",
+      "url": "https://github.com/ifatinha/pokedex.git",
+      "github": true
+    },
+    {
+      "name": "Portfolio",
+      "url": "https://github.com/ifatinha/personal-portfolio",
+      "github": true
+    },
+    {
+      "name": "Bikcraft",
+      "url": "https://github.com/ifatinha/projeto-bikcraft",
+      "github": true
+    },
+    {
+      "name": "Peer Academy",
+      "url": "https://github.com/ifatinha/peer-academy",
+      "github": true
+    }
+  ],
+  "professionalExperience": [
+    {
+      "name": "Lorem ipsum dolor sit amet",
+      "period": "2022 - até o momento",
+      "description": "In dapibus massa quis interdum porta. Aenean ac dui tellus. Nunc nec faucibus tortor, pellentesque euismod lacus. Aenean porta consequat enim at commodo. Etiam ultrices nunc pulvinar tincidunt efficitur. Curabitur ultricies a urna et iaculis."
+    },
+    {
+      "name": "Lorem ipsum dolor sit amet",
+      "period": "2021 - 2022",
+      "description": "Suspendisse hendrerit suscipit consequat. Phasellus sit amet ex nisi. Aenean ut arcu et est laoreet auctor in aliquam magna."
+    },
+    {
+      "name": "Lorem ipsum",
+      "period": "2016 - 2021",
+      "description": "Suspendisse vel massa congue, cursus sem ut, condimentum lectus. Fusce condimentum lorem non tellus mollis, a faucibus lectus placerat."
+    }
+  ]
+}

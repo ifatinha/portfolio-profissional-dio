@@ -80,7 +80,7 @@
     justify-content: start;
 }
 
-#tools {
+#hardSkills {
     align-items          : center;
     align-content        : center;
     display              : grid;
@@ -89,27 +89,28 @@
     justify-content      : center;
 }
 
-#tools li a {
+#hardSkills li a {
     display   : inline-block;
     transition: .5s ease-out;
 }
 
-#tools li a:hover {
+#hardSkills li a:hover {
     transform: scale(1.1);
 }
 
-#tools li img {
+#hardSkills li img {
     height: 40px;
     width : 40px;
 }
 
-#icon-list li {
+#hardSkills li {
     align-items: center;
     display    : flex;
     gap        : .25rem;
 }
 
-#icon-list li::before {
+#softSkills li::before,
+#languages li::before {
     background-color: rgba(9, 117, 241, 0.8);
     content         : "";
     display         : inline-block;
